@@ -22,10 +22,6 @@ import './index.scss'
 }))
 class Index extends Component {
 
-    config = {
-    navigationBarTitleText: '首页'
-  }
-
   componentWillReceiveProps (nextProps) {
     console.log(111,this.props, nextProps)
   }
@@ -35,6 +31,10 @@ class Index extends Component {
   componentDidShow () { }
 
   componentDidHide () { }
+
+  config = {
+    navigationBarTitleText: '首页'
+  }
 
   render () {
     console.log('this.props', this.props)

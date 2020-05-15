@@ -21,6 +21,7 @@ class App extends Component {
 
   config = {
     pages: [
+      'pages/home/index',
       'pages/index/index'
     ],
     window: {
@@ -36,7 +37,7 @@ class App extends Component {
       borderStyle: 'black',
       list: [
         {
-          pagePath: 'pages/index/index',
+          pagePath: 'pages/home/index',
           text: '首页',
         },
         {

@@ -1,3 +1,4 @@
+const path = require('path');
 const config = {
   projectName: 'common-taro-component',
   date: '2020-4-27',
@@ -30,6 +31,9 @@ const config = {
     ]
   },
   defineConstants: {
+  },
+  alias: {
+    '@': path.resolve(__dirname, '..', 'src'),
   },
   mini: {
     postcss: {

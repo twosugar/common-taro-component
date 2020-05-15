@@ -1,0 +1,11 @@
+/*
+ * @Author: laguan
+ * @Date: 2020-05-15 10:01:37
+ * @LastEditors: laguan
+ * @LastEditTime: 2020-05-15 10:02:12
+ */ 
+{
+    "compilerOptions": {
+        "experimentalDecorators": true
+    }
+}
