@@ -2,13 +2,13 @@
  * @Author: laguan
  * @Date: 2020-05-15 10:51:38
  * @LastEditors: laguan
- * @LastEditTime: 2020-05-15 17:55:10
+ * @LastEditTime: 2020-05-15 18:21:55
  */ 
 import Taro, { PureComponent } from '@tarojs/taro';
 import { View } from '@tarojs/components'
 import { AtTabs, AtTabsPane } from 'taro-ui';
 import CatPage from './components/CatPage/index';
-import Layout from '@/components/Layout';
+import Layout from '@/components/Layout/index';
 import './index.scss';
 
 export default class Home extends PureComponent {
